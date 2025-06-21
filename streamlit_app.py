@@ -1,4 +1,4 @@
-'''import streamlit as st
+import streamlit as st
 from openai import OpenAI
 
 # ──────────────────────────────────────────────────────────────
@@ -64,7 +64,9 @@ if prompt := st.chat_input("당신의 감정이나 상황을 들려주세요. �
         response = st.write_stream(stream)
 
     # ④ 응답 저장
-    st.session_state.messages.append({"role": "assistant", "content": response})'''
+    st.session_state.messages.append({"role": "assistant", "content": response})
+    
+'''
 
 import streamlit as st
 from openai import OpenAI
@@ -142,4 +144,4 @@ if prompt := st.chat_input("지금 어떤 이야기를 나누고 싶으신가요
     with st.chat_message("assistant"):
         response = st.write_stream(stream)
     st.session_state.messages.append({"role": "assistant", "content": response})
-
+'''
