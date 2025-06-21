@@ -5,6 +5,8 @@
 
 내 챗봇 설명 : 감정 기반의 맞춤형 책 추천 챗봇, 사용자의 텍스트 입력(예: “요즘 무기력해”)을 바탕으로 적절한 책을 큐레이션
 
+챗봇 URL : https://mydewy2025.streamlit.app/
+
 
 # 💬 Chatbot template
 
